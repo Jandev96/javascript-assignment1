@@ -3,6 +3,6 @@ let a=0;
 if(a%2===0){
 
     for(a=0; a<=10; a=a+2){
-        console.log(a);
+        document.getElementById("javascript-num").innerHTML+=a +"\n";
     }
 }
